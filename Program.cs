@@ -1,4 +1,5 @@
-﻿using NonStaticEmpWageProblem;
+﻿using EmployeeWageComputationProblem;
+using NonStaticEmpWageProblem;
 
 namespace EmployeeWageComutationProblem
 {
@@ -7,8 +8,9 @@ namespace EmployeeWageComutationProblem
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to employee wage computation problem");
-            EmpWageTillCondition Condition = new EmpWageTillCondition();
-            Condition.EmployeeWageCondition();
+            ComputeEmpWageUsingClassMethod_UC7 Classmethod = new ComputeEmpWageUsingClassMethod_UC7();
+            Classmethod.ComputeEmpWage();
+    
         }
     }
 }
